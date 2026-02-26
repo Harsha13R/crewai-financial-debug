@@ -1,47 +1,38 @@
-# CrewAI Financial Document Analyser – Debugged Version
+# Financial Document Analyzer - Debug Assignment
 
 ## Project Overview
-This project is a financial document analyser system built using CrewAI.
-The original codebase contained multiple bugs, which have been identified and fixed.
+A comprehensive financial document analysis system that processes corporate reports, financial statements, and investment documents using AI-powered analysis agents.
 
-## Bugs Identified & Fixes
+## Getting Started
 
-1. Import errors and incorrect module references
-   - Fixed incorrect imports and dependency mismatches.
+### Install Required Libraries
+```sh
+pip install -r requirement.txt
+```
 
-2. Agent configuration issues
-   - Corrected agent roles and task definitions.
+### Sample Document
+The system analyzes financial documents like Tesla's Q2 2025 financial update.
 
-3. Tool execution errors
-   - Fixed tool function parameters and return formats.
+**To add Tesla's financial document:**
+1. Download the Tesla Q2 2025 update from: https://www.tesla.com/sites/default/files/downloads/TSLA-Q2-2025-Update.pdf
+2. Save it as `data/sample.pdf` in the project directory
+3. Or upload any financial PDF through the API endpoint
 
-4. API call failures
-   - Updated model initialization and environment variable handling.
+**Note:** Current `data/sample.pdf` is a placeholder - replace with actual Tesla financial document for proper testing.
 
-## Setup Instructions
+# You're All Not Set!
+🐛 **Debug Mode Activated!** The project has bugs waiting to be squashed - your mission is to fix them and bring it to life.
 
-1. Clone the repository:
-   git clone <your-repo-link>
+## Debugging Instructions
 
-2. Create virtual environment:
-   python -m venv venv
+1. **Identify the Bug**: Carefully read the code in each file and understand the expected behavior. There is a bug in each line of code. So be careful.
+2. **Fix the Bug**: Implement the necessary changes to fix the bug.
+3. **Test the Fix**: Run the project and verify that the bug is resolved.
+4. **Repeat**: Continue this process until all bugs are fixed.
 
-3. Activate environment:
-   venv\Scripts\activate
-
-4. Install dependencies:
-   pip install -r requirements.txt
-
-5. Run the application:
-   python main.py
-
-## API Documentation
-
-- Input: Financial PDF file
-- Output: Structured financial analysis summary
-
-## Improvements (Optional Bonus)
-
-- Added error handling
-- Improved logging
-- Optimized agent workflow
+## Expected Features
+- Upload financial documents (PDF format)
+- AI-powered financial analysis
+- Investment recommendations
+- Risk assessment
+- Market insights
