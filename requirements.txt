@@ -1,0 +1,20 @@
+# Core Framework
+fastapi>=0.104.0
+uvicorn==0.29.0
+
+# CrewAI
+crewai==0.130.0
+crewai-tools==0.47.1
+
+# LLM
+openai==1.30.5
+langchain-openai==0.1.7
+
+# PDF Processing
+pypdf==4.2.0
+
+# Environment Management
+python-dotenv==1.0.1
+
+# Validation
+pydantic>=2.4.2
